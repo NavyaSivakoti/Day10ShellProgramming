@@ -29,3 +29,12 @@ Computation[uc5]=$uc5
 
 echo "All values" ${Computation[@]}
 echo "All Keys" ${!Computation[@]}
+
+counter=0
+for K in ${!Computation[@]};
+do
+echo $K;
+array[counter++]=${Computation[$K]}
+done
+
+echo "array values" ${array[@]}
