@@ -20,13 +20,11 @@ echo $uc4
 uc5=$((a%b+c))
 echo $uc5
 
-declare -A Computations
+declare -A Computation
 Computation[uc2]=$uc2
 Computation[uc3]=$uc3
 Computation[uc4]=$uc4
 Computation[uc5]=$uc5
-
-
 
 
 
